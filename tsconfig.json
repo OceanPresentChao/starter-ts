@@ -1,0 +1,42 @@
+{
+  "compileOnSave": true,
+  "include": [
+    "src",
+    "test"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "outDir": "./dist",
+    "sourceMap": true,
+    "declaration": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strict": true,
+    "pretty": true,
+    "noImplicitReturns": true,
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "types": [
+      "@types/node",
+      "@types/jest"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@": [
+        "src/"
+      ]
+    },
+    "lib": [
+      "es2017",
+      "dom",
+    ]
+  },
+  "extends": "@tsconfig/node16-strictest-esm/tsconfig.json"
+}
