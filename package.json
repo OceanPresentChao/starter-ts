@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "license": "MIT",
+  "author": "OceanPresent <oceanpresent@163.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OceanPresentChao/starter-ts.git"
+  },
+  "keywords": [
+    "oceanpresent"
+  ],
+  "homepage": "https://github.com/OceanPresentChao/starter-ts",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll",
+    "test": "jest --watchAll -u",
     "build": "rollup -c"
   },
-  "keywords": [],
-  "author": "OceanPresent",
   "devDependencies": {
     "@babel/core": "^7.17.9",
     "@babel/preset-env": "^7.16.11",
