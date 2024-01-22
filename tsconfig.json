@@ -1,26 +1,26 @@
 {
   "compilerOptions": {
-    "skipLibCheck": true,
-    "skipDefaultLibCheck": true,
-    "noImplicitAny": true,
-    "noImplicitThis": true,
-    "strict": true,
-    "pretty": true,
-    "noImplicitReturns": true,
-    "moduleResolution": "node",
-    "module": "esnext",
-    "target": "es2018",
-    "types": [
-      "@types/node",
+    "target": "ESNext",
+    "lib": [
+      "esnext"
     ],
     "baseUrl": ".",
+    "module": "esnext",
+    "moduleResolution": "node",
     "paths": {
       "@/*": [
         "src/*"
       ]
     },
-    "lib": [
-      "esnext"
+    "types": [
+      "@types/node"
     ],
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "pretty": true
   }
 }
